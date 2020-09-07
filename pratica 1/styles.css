@@ -1,0 +1,164 @@
+.title {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: green;
+  font-family: arial;
+  font-size: 25px;
+}
+
+.container {
+  margin: auto;
+  width: 1000px;
+  border: 7px solid red;
+  text-align: center;
+  vertical-align: middle;
+}
+.container .nav {
+  border: 7px solid blue;
+  margin: 3px;
+  display: flex;
+  height: 100px;
+}
+.container .nav .nav-box {
+  border: 7px solid green;
+  margin: 3px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .header {
+  height: 300px;
+  border: 7px solid blue;
+  display: flex;
+  margin: 3px;
+}
+.container .header .banner {
+  border: 7px solid green;
+  margin: 3px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .header .logo-login-form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.container .header .logo-login-form .box-banner {
+  margin: 3px;
+  height: 100%;
+  border: 7px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main {
+  border: 7px solid blue;
+  margin: 3px;
+  display: flex;
+  height: 500px;
+}
+.container .main .aside-left,
+.container .main .aside-right,
+.container .main .article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main .aside-left {
+  width: 20%;
+  border: 7px solid green;
+  margin: 3px;
+}
+.container .main .article {
+  border: 7px solid green;
+  width: 50%;
+  margin: 3px;
+}
+.container .main .aside-right {
+  border: 7px solid green;
+  margin: 3px;
+  width: 30%;
+}
+.container .footer {
+  height: 50px;
+  border: 7px solid blue;
+  margin: 3px;
+}
+
+.container2 {
+  width: 750px;
+  margin: auto;
+  border: 7px solid red;
+}
+.container2 .header {
+  height: 300px;
+  border: 7px solid blue;
+  display: flex;
+  margin: 3px;
+  height: 250px;
+}
+.container2 .header .banner {
+  width: 75%;
+  margin: 3px;
+  border: 7px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .header .logo-login-form {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.container2 .header .logo-login-form .box-banner {
+  margin: 3px;
+  border: 7px solid green;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .nav {
+  height: 50px;
+  margin: 3px;
+  border: 7px solid blue;
+}
+.container2 .main {
+  border: 7px solid blue;
+  display: flex;
+  height: 400px;
+  margin: 3px;
+}
+.container2 .main .aside-left,
+.container2 .main .article,
+.container2 .main .aside-right {
+  margin: 3px;
+  border: 7px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .main .aside-left {
+  width: 30%;
+}
+.container2 .main .article {
+  width: 60%;
+}
+.container2 .main .aside-right {
+  width: 10%;
+}
+.container2 .footer {
+  height: 50px;
+  border: 7px solid blue;
+  margin: 3px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,168 @@
+$main-border: red;
+$blue-border: blue;
+$green: green;
+$margin: 3px;
+$border-stroke: 7px;
+
+.title {
+    text-align: center;
+    margin: 1.5rem;
+}
+@mixin center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: $green;
+    font-family: arial;
+    font-size: 25px;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+    border: $border-stroke solid $main-border;
+    text-align: center;
+    vertical-align: middle;
+
+    .nav {
+        border: $border-stroke solid $blue-border;
+        margin: $margin;
+        display: flex;
+
+        height: 100px;
+        .nav-box {
+            border: $border-stroke solid $green;
+            margin: $margin;
+            width: 100%;
+
+            @include center-text();
+        }
+    }
+    .header {
+        height: 300px;
+        border: $border-stroke solid $blue-border;
+        display: flex;
+
+        margin: $margin;
+
+        .banner {
+            border: $border-stroke solid $green;
+            margin: $margin;
+            width: 80%;
+            @include center-text();
+        }
+        .logo-login-form {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            .box-banner {
+                margin: $margin;
+                height: 100%;
+                border: $border-stroke solid $green;
+
+                @include center-text();
+            }
+        }
+    }
+    .main {
+        border: $border-stroke solid $blue-border;
+        margin: $margin;
+        display: flex;
+
+        height: 500px;
+        .aside-left,
+        .aside-right,
+        .article {
+            @include center-text();
+        }
+        .aside-left {
+            width: 20%;
+            border: $border-stroke solid $green;
+            margin: $margin;
+        }
+        .article {
+            border: $border-stroke solid $green;
+            width: 50%;
+            margin: $margin;
+        }
+        .aside-right {
+            border: $border-stroke solid $green;
+            margin: $margin;
+            width: 30%;
+        }
+    }
+    .footer {
+        height: 50px;
+        border: $border-stroke solid $blue-border;
+        margin: $margin;
+    }
+}
+
+.container2 {
+    width: 750px;
+    margin: auto;
+    border: $border-stroke solid $main-border;
+    .header {
+        height: 300px;
+        border: $border-stroke solid $blue-border;
+        display: flex;
+        margin: $margin;
+        height: 250px;
+        .banner {
+            width: 75%;
+            margin: $margin;
+            border: $border-stroke solid $green;
+            @include center-text();
+        }
+        .logo-login-form {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            .box-banner {
+                margin: $margin;
+                border: $border-stroke solid $green;
+                height: 100%;
+                @include center-text();
+            }
+        }
+    }
+    .nav {
+        height: 50px;
+        margin: $margin;
+
+        border: $border-stroke solid $blue-border;
+    }
+    .main {
+        border: $border-stroke solid $blue-border;
+        display: flex;
+        height: 400px;
+        margin: $margin;
+
+        .aside-left,
+        .article,
+        .aside-right {
+            margin: $margin;
+            border: $border-stroke solid $green;
+            @include center-text();
+        }
+        .aside-left {
+            width: 30%;
+        }
+        .article {
+            width: 60%;
+        }
+        .aside-right {
+            width: 10%;
+        }
+    }
+    .footer {
+        height: 50px;
+        border: $border-stroke solid $blue-border;
+        margin: $margin;
+    }
+}
