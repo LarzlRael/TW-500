@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.container .twoPoints {
+    display: flex;
+    justify-content: space-between;
+}
+.container .twoPoints .div {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100%;
+    transition: 0.3s ease all;
+}
+.container .center-point {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+}
+
+
+/* .container .twoPoints .div:hover {
+    transform: translate(400%, 400%);
+    background-color: black; 
+} */
+.div1.active{
+    transform: translate(400%, 400%);
+}
+.div2.active{
+    transform: translate(-400%, 400%);
+}
+.div3.active{
+    transform: translate(400%, -400%);
+}
+
+.div4.active{
+    transform: translate(-400%, -400%);
+}
