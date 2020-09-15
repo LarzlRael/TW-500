@@ -29,8 +29,11 @@
     border-radius: 100%;
     display: flex;
     margin: auto;
+    transition: .3s ease all;
 }
-
+.container .center-point:hover {
+    transform: scale(1.5);
+}
 
 /* .container .twoPoints .div:hover {
     transform: translate(400%, 400%);
@@ -40,12 +43,19 @@
     transform: translate(400%, 400%);
 }
 .div2.active{
-    transform: translate(-400%, 400%);
+    transform: translateY(-400%)
 }
 .div3.active{
-    transform: translate(400%, -400%);
+    transform: translate(-400%, 400%);
 }
 
 .div4.active{
+    transform: translate(400%, -400%);
+}
+.div5.active{
+    transform: translateY(-400%)
+
+}
+.div6.active{
     transform: translate(-400%, -400%);
 }
