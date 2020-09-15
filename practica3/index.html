@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #contenedor {
+        width: 600px;
+        height: 500px;
+        background: red;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    #contenedor div {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        position: absolute;
+        left: 250px;
+        top: 200px;
+    }
+
+    #bolita1 {
+        background: green;
+        transition: all 5s;
+    }
+
+    #bolita2 {
+        background: back;
+        transition: all 5s ease-in-out;
+    }
+
+    #bolita3 {
+        background: blue;
+        transition: all 5s ease-in-out;
+    }
+
+    #contenedor:hover #bolita1 {
+        top: 0;
+        left: 0;
+    }
+
+    #contenedor:hover #bolita2 {
+        top: 0;
+        left: 500px;
+    }
+
+    #contenedor:hover #bolita2 {
+        top: 0;
+        left: 500px;
+    }
+
+    #contenedor:hover #bolita3 {
+        top: 400px;
+        left: 500px;
+        border-radius: 0;
+        background: orange;
+    }
+</style>
+
+<body>
+
+    <div class="" id="contenedor">
+        <div class="" id="bolita1"></div>
+        <div class="" id="bolita2"></div>
+        <div class="" id="bolita3"></div>
+    </div>
+</body>
+
+</html>
