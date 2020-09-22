@@ -13,6 +13,7 @@
     .contenedor-secundario {
         width: 100%;
         border: 2px solid #000;
+        border-radius: 40px 0px 0px 0px;
 
         .imagen-contenido {
             position: relative;
@@ -31,7 +32,8 @@
                     height: 300px;
                     border: 2px solid #000;
                     display: flex;
-                    
+                    border-radius: 40px 0px 0px 0px;
+
                     .titulo {
                         &.active {
                             display: block;
@@ -41,6 +43,7 @@
                         }
                     }
                     img {
+                        border-radius: 40px 0px 0px 0px;
                         transition: 0.1s ease all;
                         width: 100%;
                         display: none;
@@ -59,7 +62,6 @@
                     border: 2px solid #000;
                     text-align: justify;
                     line-height: 1.5;
-                    
                 }
             }
         }
@@ -105,15 +107,23 @@
         width: 100%;
         display: flex;
         border: 2px solid #000;
-
+        border-radius: 0px 0px 30px 0px;
         button {
             width: 100%;
             margin: 1rem;
             padding: 15px 10px;
             font-size: 1.2rem;
+
             &:hover {
                 cursor: pointer;
             }
+            &.curva {
+                border-radius: 0px 0px 30px 0px;
+            }
         }
     }
+}
+
+.curva {
+    border-radius: 0px 0px 30px 0px;
 }
