@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="col-md-10 offset-md-10"></div>
+        <h2 class="card-header text-center">
+            Añadir Usuarios
+        </h2>
+        <form class="card-body" id="form">
+
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="nombre" class="form-control" id="nombre">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Apellido Paterno" class="form-control" id="apellido_paterno">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Apellido materno" class="form-control" id="apellido_materno">
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+
+                <div class="col">
+                    <input type="tel" placeholder="Telefono" class="form-control" id="telefono">
+                </div>
+                <div class="col">
+                    <input type="tel" placeholder="Dirección" class="form-control" id="direccion">
+                </div>
+                
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox" >
+                <label class="form-check-label" for="exampleCheck1">
+                    Estado
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-block btn-primary">Enviar</button>
+            </div>
+    </div>
+    </form>
+    </div>
+    <table id="table" class="table">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Telefono</th>
+            <th>Direccion</th>
+            <th>Estado</th>
+        </tr>
+    </table>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="main.js"></script>
+
+</html>

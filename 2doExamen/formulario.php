@@ -78,7 +78,7 @@ $con = mysqli_connect("localhost", "larz", "larz", "cotizacion") or die("Error e
                 <td><?php echo $apellido; ?> </td>
                 <td><?php echo cod($deuda); ?> </td>
                 <td><?php echo $deuda; ?> </td>
-                <td><?php echo registro_deudas($deuda); ?> </td>
+                <td><?ph    p echo registro_deudas($deuda); ?> </td>
                 <td><?php echo ($deuda *registro_deudas($deuda))+$deuda; ?> </td>
 
                 

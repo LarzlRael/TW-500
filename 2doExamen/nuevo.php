@@ -7,12 +7,12 @@ $nombre = $_POST['nombre'];
 $apellido = $_POST['apellido'];
 $deuda = $_POST['deuda'];
 //EJECUTA LA CONSULTA E INSERTA DATOS A LA BASE DE DATOS
-$insertar = "INSERT INTO clientes(nombre,apellido,deuda) VALUES 
+$insertar = "INSERT INTO user(nombre,apellido,deuda) VALUES 
             ('$nombre','$apellido','$deuda')";
             
 try {
     $ejecutar = mysqli_query($con, $insertar);
-     header("Location: http://localhost:8080/formulario.php"); 
+    header("Location: http://localhost:8080/formulario.php"); 
     
 } catch (mysqli_sql_exception $e) {
     echo $e;
