@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "arial";
+}
+
+.main-container {
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #ccc;
+}
+.main-container .caja {
+  width: 100%;
+  background: yellow;
+  height: 60%;
+}
+.main-container .grupo-botones {
+  display: flex;
+}
+.main-container .grupo-botones .boton {
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+}
+.main-container .grupo-botones .boton1 {
+  background: black;
+  color: red;
+}
+.main-container .grupo-botones .boton2 {
+  background: red;
+  color: black;
+}
+
+#label-info {
+  color: red;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "arial";
+}
+.main-container {
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+
+    .caja {
+        width: 100%;
+        background: yellow;
+        height: 60%;
+    }
+
+    .grupo-botones {
+        display: flex;
+        .boton {
+            padding: 10px;
+            width: 100%;
+            margin: 5px;
+        }
+        .boton1 {
+            background: black;
+            color: red;
+        }
+        .boton2 {
+            background: red;
+            color: black;
+        }
+    }
+}
+#label-info {
+    color: red;
+    text-transform: uppercase;
+}

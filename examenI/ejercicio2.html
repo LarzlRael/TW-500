@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+            animation: primeraAnimacion 10s;
+            -webkit-animation: primeraAnimacion 10s;
+            border-radius: 100%;
+        }
+
+        @keyframes primeraAnimacion {
+            0% {
+                background: blue;
+                left: 0px;
+                top: 100px;
+
+            }
+
+
+
+            20% {
+                background: blue;
+                left: 300px;
+                top: 0px;
+                border-radius: 0;
+            }
+
+            40% {
+                background: green;
+                left: 500px;
+                top: 100px;
+                border-radius: 0;
+
+            }
+
+            60% {
+                background: skyblue;
+                left: 0px;
+                top: 300px;
+                /* rotate(180deg); */
+                border-radius: 0;
+            }
+
+            80% {
+                background: green;
+                left: 250px;
+                top: 250px;
+                /* rotate(180deg); */
+                border-radius: 0;
+                transform: rotate(500deg);
+
+            }
+
+            100% {
+                background: yellow;
+                left: 400px;
+                top: 400px;
+                border-radius: 100%;
+                transform: rotate(1000deg);
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
