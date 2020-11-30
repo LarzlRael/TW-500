@@ -1,4 +1,4 @@
-let URI = "http://localhost/practica8/API";
+let URI = "http://localhost:8080/API";
 
 const nombre = document.querySelector('#nombre');
 const apellido_paterno = document.querySelector('#apellido_paterno');

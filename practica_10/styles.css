@@ -1,0 +1,52 @@
+.caja{
+    width: 80%;
+    margin:auto;
+}
+.naranja{
+    background: #ED7D31;
+    padding: 40px;
+}
+.azul{
+    background: #4472C4;
+    padding: 50px;
+    text-align: center;
+ 
+}
+.verde{
+    background: #70AD47;
+}
+
+.amarillo{
+    background: #FFC000;
+}
+.azul-marino{
+    background: #002060;
+}
+
+.morado{
+    background: #7030A0;
+}
+.gris{
+    background: #A5A5A5;
+}
+.rojo{
+    background: red;
+}
+.negro{
+    background: #000;
+    padding: 30px;
+}
+
+.col-md-3{
+    padding: 80px;
+}
+.col-md-6{
+    padding: 80px;
+}
+.slider{
+    font-size: 3rem;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
